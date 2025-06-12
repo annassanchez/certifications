@@ -1,7 +1,7 @@
 # _config.yml
-title: My Awesome Site
+title: Certifications
 description: "A site built with Jekyll"
-baseurl: "https://annassanchez.github.io/certifications"
+baseurl: ""
 url: "https://annassanchez.github.io"
 markdown: kramdown
 theme: minima

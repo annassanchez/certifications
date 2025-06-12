@@ -1,3 +1,8 @@
+---
+layout: page
+parent: AWS Cloud Practitioner
+---
+
 In this track of the CLF-C02: AWS Certified Cloud Practitioner journey, the focus will be on the following:
 
 - Define the benefits of the AWS Cloud• Identify design principles of the AWS Cloud
