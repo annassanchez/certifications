@@ -1,0 +1,25 @@
+# _config.yml
+title: My Awesome Site
+description: "A site built with Jekyll"
+baseurl: ""
+url: "https://annassanchez.github.io/certifications"
+markdown: kramdown
+theme: minima
+
+include:
+  - _pages
+  - assets
+
+exclude:
+  - Gemfile.lock
+
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+minima:
+  social_links:
+    github: yourusername
