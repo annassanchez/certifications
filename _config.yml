@@ -1,25 +1,47 @@
 # _config.yml
 title: My Awesome Site
 description: "A site built with Jekyll"
-baseurl: ""
-url: "https://annassanchez.github.io/certifications"
+baseurl: "https://annassanchez.github.io/certifications"
+url: "https://annassanchez.github.io"
 markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-feed     # RSS feed (enabled by default on GitHub Pages)
 
 include:
   - _pages
   - assets
 
+# Exclude files/folders (e.g., drafts, private files)
 exclude:
+  - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor
 
 permalink: pretty
+
+# Optional: Customize URLs for specific files
+defaults:
+  - scope:
+      path: "_pages"  # Applies to files in `_pages/`
+    values:
+      permalink: /:title/  # URL format (e.g., `/about/`)
 
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
+# GitHub Pages automatically sets these, but you can override:
+github:
+  repository: annassanchez/certifications  # Replace with your repo
+  branch: main                   # Or your default branch
+
+# Optional: Force Jekyll to process files with underscores (e.g., `_pages`)
+include:
+  - _pages
+
 minima:
   social_links:
-    github: yourusername
+    github: annassanchez
