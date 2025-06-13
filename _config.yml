@@ -7,7 +7,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed     # RSS feed (enabled by default on GitHub Pages)
-  - jekyll-remote-theme     # Required for remote themes
 
 include:
   - _pages
