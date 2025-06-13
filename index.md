@@ -5,6 +5,4 @@ title: Home
 
 # My Certifications
 
-- [aws Cloud Practitioner](/_pages/aws-cloud-practitioner/index.md)  
-- [My Projects](/projects/)  
-- [Contact](/contact/)
+- [aws Cloud Practitioner](aws-cloud-practitioner)  

@@ -1,8 +1,10 @@
 ---
-layout: default
-title: AWS Course
+layout: page
+title: AWS Cloud Practitioner
+permalink: /aws-cloud-practitioner/  # Optional (clean URL)
 ---
-# AWS Cloud Practitioner
+# AWS Cloud Practitioner Study Guide
 
-- [Module 1](module01)
-- [Module 2](module02)
+## Modules
+- [Module 1: Cloud Concepts](module01/)
+- [Module 2: Security](module02/)

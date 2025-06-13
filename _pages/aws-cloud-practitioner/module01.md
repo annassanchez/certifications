@@ -1,6 +1,8 @@
 ---
 layout: page
-parent: AWS Cloud Practitioner
+title: "Module 1: Cloud Concepts"
+permalink: /aws-cloud-practitioner/module01/  # Optional
+parent: AWS Cloud Practitioner  # For breadcrumbs (if supported)
 ---
 
 In this track of the CLF-C02: AWS Certified Cloud Practitioner journey, the focus will be on the following:
