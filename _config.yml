@@ -4,7 +4,7 @@ description: "A site built with Jekyll"
 baseurl: ""
 url: "https://annassanchez.github.io"
 markdown: kramdown
-theme: jekyll/minima
+theme: minima
 plugins:
   - jekyll-feed     # RSS feed (enabled by default on GitHub Pages)
   - jekyll-remote-theme     # Required for remote themes
