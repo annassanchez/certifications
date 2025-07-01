@@ -10,7 +10,7 @@ plugins:
 
 include:
   - _pages
-  - assets
+  - _assets
 
 # Exclude files/folders (e.g., drafts, private files)
 exclude:

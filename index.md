@@ -7,3 +7,4 @@ title: Home
 
 - [aws Cloud Practitioner](aws-cloud-practitioner)  
 - [aws Architecting on AWS](aws-architecting-on-aws)  
+- [aws Solutions Architect](aws-solutions-architect)  
